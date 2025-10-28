@@ -54,7 +54,6 @@ The analysis uses the **IBM Telco Customer Churn dataset** as a case study.
 | Cox Proportional Hazards | Semi-parametric | Measures relative churn risk |
 | Weibull AFT Model | Parametric | Models time to churn |
 | Random Survival Forest | Ensemble | Captures nonlinear feature effects |
-| (Optional) DeepSurv | Neural | Deep-learning survival modeling |
 
 ---
 
