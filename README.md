@@ -151,25 +151,15 @@ jupyter notebook notebooks/SurvivalAnalysis_Final.ipynb
 
 streamlit run app/streamlit_app.py
 
-11. Future Work
-
-Add DeepSurv for non-linear hazard estimation
-
-Develop real-time churn risk dashboard
-
-Deploy survival models as REST APIs
-
-Integrate survival outputs with Customer Lifetime Value (CLV) prediction
-
 12. Author
 
-Your Name
+Lakshmi Naga Hrishitaa Dharmavarapu
 Machine Learning & Survival Modeling
-Email: your.email@example.com
+Email: ldhar@uic.edu
 
-LinkedIn: linkedin.com/in/yourname
+LinkedIn: www.linkedin.com/in/hrishitaa-dharmavarapu-ln-3420a8205
 
-GitHub: github.com/yourusername
+GitHub: github.com/HrishitaaDLN
 
 13. Acknowledgments
 
