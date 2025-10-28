@@ -1,4 +1,4 @@
-# 📊 Customer Churn Survival Analysis
+# Customer Churn Survival Analysis
 
 This project reframes customer churn prediction as a **time-to-event (survival)** problem — focusing on **when** a customer will churn, not just **if** they will.  
 
@@ -6,7 +6,7 @@ It combines both **statistical** and **machine learning** approaches — includi
 
 ---
 
-## 🧠 1. Project Overview
+##  1. Project Overview
 
 Traditional churn prediction treats churn as a binary classification problem.  
 This project models churn as a **survival process**, estimating the **expected time until churn**.
@@ -20,7 +20,7 @@ The analysis uses the **IBM Telco Customer Churn dataset** as a case study.
 
 ---
 
-## 🎯 2. Objectives
+##  2. Objectives
 
 - Estimate **customer survival probability** over time  
 - Identify **key drivers of churn risk**  
@@ -30,14 +30,14 @@ The analysis uses the **IBM Telco Customer Churn dataset** as a case study.
 
 ---
 
-## 🔍 3. Methodology
+##  3. Methodology
 
-### 🧩 Data Exploration
+###  Data Exploration
 - Visualized churn patterns by demographics, services, and tenure  
 - Detected early-tenure churn risk  
 - Checked feature multicollinearity using **Variance Inflation Factor (VIF)**
 
-### 🧱 Feature Engineering
+###  Feature Engineering
 - One-hot encoded categorical variables  
 - Removed high-VIF features (>5)  
 - Defined:
@@ -46,7 +46,7 @@ The analysis uses the **IBM Telco Customer Churn dataset** as a case study.
 
 ---
 
-## 🤖 4. Models Implemented
+##  4. Models Implemented
 
 | Model | Type | Purpose |
 |--------|------|----------|
@@ -57,7 +57,7 @@ The analysis uses the **IBM Telco Customer Churn dataset** as a case study.
 
 ---
 
-## 📈 5. Key Results
+##  5. Key Results
 
 | Metric | Value | Interpretation |
 |--------|--------|----------------|
@@ -68,21 +68,21 @@ The analysis uses the **IBM Telco Customer Churn dataset** as a case study.
 
 ---
 
-## 💡 6. Insights & Interpretations
+##  6. Insights & Interpretations
 
-### 🕐 Early Churn Risk
+###  Early Churn Risk
 - Highest churn risk within **first 6 months**  
 - Retaining customers past **12 months** dramatically improves lifetime
 
-### 💳 Service & Payment Behavior
+###  Service & Payment Behavior
 - **Month-to-month contracts** and **electronic check payments** drive churn  
 - **Long-term contracts** & **auto-pay** reduce risk
 
-### 🔧 Add-on Services
+###  Add-on Services
 - **OnlineSecurity**, **TechSupport**, and **OnlineBackup** improve retention  
 - Bundled services consistently extend customer lifetime
 
-### 🔥 Feature Importance (RSF)
+###  Feature Importance (RSF)
 Top churn drivers:
 1. Contract type (Month-to-month)
 2. Payment method (Electronic check)
@@ -93,7 +93,7 @@ Demographics (e.g., gender, senior status) showed minimal effect.
 
 ---
 
-## ⚖️ 7. Model Comparison
+##  7. Model Comparison
 
 | Model | Concordance Index | Notes |
 |--------|------------------|-------|
@@ -105,7 +105,7 @@ Demographics (e.g., gender, senior status) showed minimal effect.
 
 ---
 
-## 💼 8. Business Recommendations
+##  8. Business Recommendations
 
 | Finding | Recommendation |
 |----------|----------------|
@@ -117,7 +117,7 @@ Demographics (e.g., gender, senior status) showed minimal effect.
 
 ---
 
-## 💰 9. Business Impact
+##  9. Business Impact
 
 Assuming **10,000 customers** at **\$70/month**:
 - Extending survival by **3 months** = **\$2.1M retained revenue annually**
@@ -125,7 +125,7 @@ Assuming **10,000 customers** at **\$70/month**:
 
 ---
 
-## ⚙️ 10. Technical Details
+##  10. Technical Details
 
 **Language:** Python 3.10+  
 **Environment:** Jupyter Notebook / Streamlit  
@@ -135,7 +135,7 @@ Assuming **10,000 customers** at **\$70/month**:
 
 ---
 
-## 🧩 11. Running the Project
+##  11. Running the Project
 
 ### Clone the repository
 ```bash
@@ -150,17 +150,17 @@ streamlit run streamlit_app.py
 
 Upload the dataset (or use the default Telco dataset) → select a model → train → analyze churn curves, feature importances, and predictions.
 
-👩‍💻 12. Author
+## 12. Author
 
 Lakshmi Naga Hrishitaa Dharmavarapu
 Machine Learning & Survival Modeling
-📧 Email: ldhar@uic.edu
+ Email: ldhar@uic.edu
 
-🔗 LinkedIn
+ LinkedIn: www.linkedin.com/in/hrishitaa-dharmavarapu-ln-3420a8205
 
-💻 GitHub
+ GitHub: https://github.com/HrishitaaDLN
 
-🙏 13. Acknowledgments
+## 13. Acknowledgments
 
 Dataset: IBM Telco Customer Churn
 
@@ -168,7 +168,7 @@ Libraries: Lifelines, Scikit-Survival, PyCox
 
 Inspiration: Survival analysis applied to customer retention
 
-🏁 14. Summary
+## 14. Summary
 
 This project demonstrates how survival analysis transforms churn prediction —
 revealing not only who is likely to churn, but when it will happen.
