@@ -1,0 +1,33 @@
+# =========================
+# Core Dependencies
+# =========================
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+scikit-learn>=1.4.0
+joblib>=1.3.0
+
+# =========================
+# Survival Analysis
+# =========================
+lifelines>=0.28.0
+# scikit-survival requires special installation on Windows (see below)
+pycox>=0.2.3
+torchtuples>=0.2.2
+torch>=2.2.0
+torchaudio>=2.2.0
+torchvision>=0.17.0
+
+# =========================
+# App and Reporting
+# =========================
+streamlit>=1.38.0
+fpdf2>=2.7.8
+
+# =========================
+# Utilities
+# =========================
+tqdm>=4.66.0
+pyyaml>=6.0.0

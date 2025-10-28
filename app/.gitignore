@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Data & Models
+*.pkl
+*.csv
+*.sav
+*.h5
+
+# Streamlit cache
+.streamlit/
+
+# PDFs and reports
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
