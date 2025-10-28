@@ -45,12 +45,20 @@ st.set_page_config(
 # ---------------------------------------------------------------------
 # HEADER
 # ---------------------------------------------------------------------
-st.title("Customer Churn Survival Analysis Dashboard")
+st.title("📊 Customer Churn Survival Analysis Dashboard")
+
 st.markdown("""
-Understand **when and why** customers leave — not just who will.  
-This dashboard uses **survival analysis models** to forecast churn timing, 
-evaluate customer risk, and quantify the business impact of retention strategies.
+**Welcome!**  
+This dashboard helps you understand **when and why customers churn — not just who will.**  
+It uses advanced **survival analysis models** (CoxPH, Weibull AFT, and Random Survival Forests)  
+to forecast churn timing, estimate retention probability, and evaluate the business impact of customer behavior.
 """)
+
+st.info("""
+💡 *Please upload your dataset in the sidebar to begin analysis.*  
+If no file is provided, the app will automatically use the **IBM Telco Customer Churn dataset** as a default example.
+""")
+
 
 # ---------------------------------------------------------------------
 # SIDEBAR - DATA CONFIGURATION
