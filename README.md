@@ -3,6 +3,7 @@
 This project reframes customer churn prediction as a **time-to-event (survival)** problem — focusing on **when** a customer will churn, not just **if** they will.  
 
 It combines both **statistical** and **machine learning** approaches — including **Cox Proportional Hazards**, **Weibull Accelerated Failure Time**, and **Random Survival Forests** — to estimate churn risk, customer lifetime, and survival probabilities for telecom customers.
+
 You can view the app here: https://customer-churn-survival-analysis-ldhar.streamlit.app/
 ---
 
