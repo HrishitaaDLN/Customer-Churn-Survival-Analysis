@@ -128,7 +128,7 @@ Assuming **10,000 customers** at **\$70/month**:
 ##  10. Technical Details
 
 **Language:** Python 3.10+  
-**Environment:** Jupyter Notebook / Streamlit  
+**Environment:** Jupyter Notebook 
 
 **Core Libraries:**  
 `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `lifelines`, `scikit-survival`, `joblib`, `fpdf`
@@ -150,7 +150,8 @@ streamlit run streamlit_app.py
 
 Upload the dataset (or use the default Telco dataset) → select a model → train → analyze churn curves, feature importances, and predictions.
 
-## 12. Author
+---
+### 12. Author
 
 Lakshmi Naga Hrishitaa Dharmavarapu
 Machine Learning & Survival Modeling
@@ -160,7 +161,8 @@ Machine Learning & Survival Modeling
 
  GitHub: https://github.com/HrishitaaDLN
 
-## 13. Acknowledgments
+---
+### 13. Acknowledgments
 
 Dataset: IBM Telco Customer Churn
 
@@ -168,7 +170,8 @@ Libraries: Lifelines, Scikit-Survival, PyCox
 
 Inspiration: Survival analysis applied to customer retention
 
-## 14. Summary
+---
+### 14. Summary
 
 This project demonstrates how survival analysis transforms churn prediction —
 revealing not only who is likely to churn, but when it will happen.
